@@ -28,8 +28,9 @@ deploy:production:
   - firebase deploy --only hosting -m "Pipeline $CI_PIPELINE_ID, build $CI_BUILD_ID" --non-interactive --token $FIREBASE_TOKEN
 
 ```
+## Files
+* [.gitlab-ci.yml](.gitlab-ci.yml)
 
 ## Links
-
 * https://gist.github.com/rambabusaravanan/4907ea46d814bc69002c6f011ae6dd48
 * https://medium.com/@rambabusaravanan/firebase-hosting-deployment-automation-with-gitlab-ci-f3fad9130d62

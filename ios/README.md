@@ -1,5 +1,7 @@
 # IOS builds
 
+## Setup
+
 > See links below
 
 ## .gitlab-ci.yml
@@ -60,6 +62,8 @@ develop:
     name: develop
 ```
 
-## Links
+## Files
+* [.gitlab-ci.yml](.gitlab-ci.yml)
 
+## Links
 * https://medium.com/flawless-app-stories/how-to-set-up-gitlab-continuous-integration-for-ios-projects-without-a-hustle-53c2b642c90f

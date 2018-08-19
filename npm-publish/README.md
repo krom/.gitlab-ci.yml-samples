@@ -1,5 +1,6 @@
 # Publish new NPM version for package
 
+## Setup
 Copy the authorization token from the _.npmrc_ file and add it in GitLab as a [CI/CD variable](https://docs.gitlab.com/ce/ci/variables/README.html#variables) named **NPM_TOKEN**.
 
 ## .gitlab-ci-yml
@@ -20,6 +21,8 @@ publish:
   - npm publish
 ```
 
-## Links
+## Files
+* [.gitlab-ci.yml](.gitlab-ci.yml)
 
+## Links
 * https://www.exclamationlabs.com/blog/continuous-deployment-to-npm-using-gitlab-ci/

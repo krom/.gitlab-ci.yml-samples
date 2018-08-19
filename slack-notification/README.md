@@ -51,6 +51,8 @@ notify:
 
 ```
 
-## Links
+## Files
+* [.gitlab-ci.yml](.gitlab-ci.yml)
 
+## Links
 * https://github.com/krom/slack-notify

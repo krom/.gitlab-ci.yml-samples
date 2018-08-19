@@ -1,4 +1,7 @@
-# Ansible lint and playbook
+# Ansible lint, test and playbook
+
+## Setup
+>No setup required
 
 ## .gitlab-ci.yml
 
@@ -24,6 +27,9 @@ deploy:
   script:
     - ansible-playbook playbook.yml
 ```
+
+## Files
+* [.gitlab-ci.yml](.gitlab-ci.yml)
 
 ## Links
 

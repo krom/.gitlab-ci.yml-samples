@@ -54,7 +54,8 @@ audit:
   - npm audit
 
 ```
+## Files
+* [.gitlab-ci.yml](.gitlab-ci.yml)
 
 ## Links
-
 * https://www.exclamationlabs.com/blog/continuous-deployment-to-npm-using-gitlab-ci/
