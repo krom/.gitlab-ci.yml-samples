@@ -1,0 +1,14 @@
+image: node:latest
+
+stages:
+- release
+
+publish:
+  stage: release
+  only:
+  - tags
+  - triggers
+  script:
+  - npm run build
+  - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+  - npm publish
