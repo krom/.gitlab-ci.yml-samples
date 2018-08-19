@@ -1,0 +1,12 @@
+stages:
+- notify
+
+variables:
+  SLACK_WEBHOOK: https://hooks.slack.com/services/Txxxxxx/Bxxxxxx/xxxxxxxx
+  SLACK_CHANNEL: deploy
+
+notify:
+  stage: notify
+  image: kudlayry/slack-notify:latest
+  script:
+  - 'SLACK_MESSAGE="Message" slack-notify'

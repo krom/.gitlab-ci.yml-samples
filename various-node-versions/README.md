@@ -54,3 +54,7 @@ audit:
   - npm audit
 
 ```
+
+## Links
+
+* https://www.exclamationlabs.com/blog/continuous-deployment-to-npm-using-gitlab-ci/
