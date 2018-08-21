@@ -7,6 +7,7 @@ Samples of .gitlab-ci.yml for various purposes
 
 ### Hosting
 * [Publish at Firebase hosting](firebase-hosting)
+* [Publish at AWS S3](aws-s3)
 
 ### DevOps
 * [Ansible lint test and playbook](ansible)
