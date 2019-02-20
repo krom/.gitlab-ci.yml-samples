@@ -33,4 +33,5 @@ deploy:
 
 ## Links
 
-* https://github.com/krom/ansible-docker
+* [Repository at GitHub](https://github.com/krom/ansible-docker)
+* [Repository at Docker Hub](https://hub.docker.com/r/kudlayry/ansible/)

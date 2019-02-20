@@ -55,4 +55,5 @@ notify:
 * [.gitlab-ci.yml](.gitlab-ci.yml)
 
 ## Links
-* https://github.com/krom/slack-notify
+* [Repository at GitHub](https://github.com/krom/slack-notify)
+* [Repository at Docker Hub](https://hub.docker.com/r/kudlayry/slack-notify/)

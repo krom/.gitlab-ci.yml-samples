@@ -11,6 +11,7 @@ Samples of .gitlab-ci.yml for various purposes
 
 ### DevOps
 * [Ansible lint test and playbook](ansible)
+* [Deployment with SSH and rsync](deploy-ssh-rsync)
 
 ### Notifications
 * [Slack notification](slack-notification)
