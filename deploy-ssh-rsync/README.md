@@ -17,13 +17,14 @@ $SSH_KNOWN_HOSTS=github.com ssh-rsa AAAAB3NzaC1yc2EAAAAB...
 ## Example of .gitlab-ci.yml
 
 ```YAML
-image: kudlayry/deploy-tools:latest
+image: kromz/deploy-tools:latest
 
 stages:
   - deploy
 
 
 deploy:
+  image: kromz/deploy-tools:latest
   stage: deploy
   only:
     - master
@@ -71,4 +72,4 @@ ssh-keyscan <remote SSH server>
 
 ## Links
 * [Repository at GitHub](https://github.com/krom/deploy-tools-docker)
-* [Repository at Docker Hub](https://hub.docker.com/r/kudlayry/deploy-tools/)
+* [Repository at Docker Hub](https://hub.docker.com/r/kromz/deploy-tools/)
