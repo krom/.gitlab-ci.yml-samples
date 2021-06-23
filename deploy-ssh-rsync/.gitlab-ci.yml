@@ -1,4 +1,4 @@
-image: kudlayry/deploy-tools:latest
+image: kromz/deploy-tools:latest
 
 stages:
   - deploy

@@ -45,7 +45,7 @@ variables:
 
 notify:
   stage: notify
-  image: kudlayry/slack-notify:latest
+  image: kromz/slack-notify:latest
   script:
     - 'SLACK_MESSAGE="Message" slack-notify'
 
@@ -56,4 +56,4 @@ notify:
 
 ## Links
 * [Repository at GitHub](https://github.com/krom/slack-notify)
-* [Repository at Docker Hub](https://hub.docker.com/r/kudlayry/slack-notify/)
+* [Repository at Docker Hub](https://hub.docker.com/r/kromz/slack-notify/)

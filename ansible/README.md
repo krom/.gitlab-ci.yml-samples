@@ -6,7 +6,7 @@
 ## .gitlab-ci.yml
 
 ```yaml
-image: kudlayry/ansible:latest
+image: kromz/ansible:latest
 
 stages:
   - test
@@ -34,4 +34,4 @@ deploy:
 ## Links
 
 * [Repository at GitHub](https://github.com/krom/ansible-docker)
-* [Repository at Docker Hub](https://hub.docker.com/r/kudlayry/ansible/)
+* [Repository at Docker Hub](https://hub.docker.com/r/kromz/ansible/)

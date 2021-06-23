@@ -7,6 +7,6 @@ variables:
 
 notify:
   stage: notify
-  image: kudlayry/slack-notify:latest
+  image: kromz/slack-notify:latest
   script:
   - 'SLACK_MESSAGE="Message" slack-notify'
