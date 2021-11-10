@@ -14,6 +14,9 @@ to send a message to your slack channel.
 
 Before you can use this tool, you need to log into your Slack account and configure this.
 
+>Please note, this is a legacy custom integration - an outdated way for teams to integrate with Slack. These integrations lack newer features and they will be deprecated and possibly removed in the future. We do not recommend their use. Instead, we suggest that you check out their replacement: Slack [apps](https://api.slack.com/start).
+
+
 ## Setup
 
 >You may to setup variables via [CI/CD variables]([https://gitlab.com/help/ci/variables/README#variables)
